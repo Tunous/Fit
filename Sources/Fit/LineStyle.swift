@@ -10,6 +10,7 @@ import SwiftUI
 
 
 /// An alignment position along the horizontal axis for the line in ``Fit`` layout.
+@available(iOS 16, *)
 public enum LineAlignment {
     case leading, center, trailing
 }
@@ -31,6 +32,7 @@ public enum LineAlignment {
 /// }
 /// ```
 ///
+@available(iOS 16, *)
 public struct LineStyle {
     
     public var alignment: LineAlignment = .leading

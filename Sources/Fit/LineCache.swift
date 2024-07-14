@@ -8,6 +8,7 @@
 import SwiftUI
 
 
+@available(iOS 16, *)
 extension Fit.LayoutCache {
     
     /// Represents the group of items forming the line.
@@ -112,6 +113,7 @@ extension Fit.LayoutCache {
     }
 }
 
+@available(iOS 16, *)
 extension Fit.LayoutCache.Line {
     struct Baseline {
         private(set) var highest: CGFloat

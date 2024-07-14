@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-
+@available(iOS 16, *)
 extension Fit: Layout {
     
     public func sizeThatFits(proposal: ProposedViewSize, subviews: Subviews, cache: inout LayoutCache) -> CGSize {
